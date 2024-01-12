@@ -1,9 +1,13 @@
+import Articles from "@/components/articles";
+import Explore from "@/components/explore";
 import Hero from "@/components/hero";
+import Map from "@/components/map";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <div className="bg-white">
+      <Navbar />
       <div
         style={{
           backgroundImage:
@@ -12,10 +16,12 @@ export default function Home() {
         className="bg-cover bg-no-repeat h-full"
       >
         <div className="bg-gradient-to-bl from-black/40 to-black/40 min-h-[100vh] w-full h-full">
-          <Navbar />
           <Hero />
         </div>
       </div>
+      <Articles />
+      <Explore />
+      <Map />
     </div>
   );
 }

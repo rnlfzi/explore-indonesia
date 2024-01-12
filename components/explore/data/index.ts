@@ -1,0 +1,14 @@
+export const banners = [
+  {
+    src: "https://s3-alpha-sig.figma.com/img/c340/4ad7/5861426f01db20db6a1d2f24274a4f0d?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WXzwq9crud~3We4UX1DvDH5Br5ERwoFPT51Q8vnWLF-M60sY3fccW3aAVrWjwc6O~b1uQhXEbiKoouWiYD3MZQYNb40x7w74OC8hg0RJKSqN8-p9QsuaTrNoLJlPm0M8tPqciDCOB6xBG8-fG62Znl9oZw4dKn6MT-AnrR8QpqR-CkDvxdwjhOmBrQLnN7Z5GKrwJU56b8jVzGfQKM8bVPm59OJR8hdNzLl-PhCTS6rUnZyaU5slD4uEvfdrq5UcB~wukBo9V8FczQujQPwEcn7NCilVk3uq9uK~2uQ1IvEWaG8WskSrFcuGADCvwdhgdD45pv8PLpiLW5bTLUiJuA__",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/706e/beeb/6271a5ca01caa1d1080ae6d84a07e4a2?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gJXo8KxQQyd71vmVYrQDb~4TMzDddFpQ7XnHXuznws7D11ibVb4ji0hAmTa0zfxwAfZEFgaXX~4Dm5MbAByB8oDVPQSBwkaIn2aFIfzUZooNfL5Wbikl4jV3JXLZPdWkkz52KAamO9IY6nMU2nO3s2i0rtpvS1oQli9YgIY2426~gf29g-RzTIKRa~Z1fNyk3jRDRpMZRrTwvkyjeJG7my0zU3FBckOjNAj-P6crr1L6spQti0V6ENljyYSF89WDlnrFrRWqhDavzLqVRsQfE7FoTcpyGZZyXKaubHuUn6AOop8TrUVSw2kX~1JUKuM15EQUjUb4SkYX9Th~Ti8kXw__",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/b75a/5af4/6d2739e9bb04393c408517f97c7adc23?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pzvBwIahwmFUPYXbgh7FKuelA0fG22CxgNl8X9EyTKKswUeePMJlDS9XGYFjQJcXF4VzTSpQMF-QUiFTb62sPswcG-ycFrqp9cnfTrLWugU7dfdtOralpmd0irT6wEH9PxXqLtY92w97CIMfCLW4LspDfCDqpQiPkfDZpFV92EcdXC96ptiR6JjuiWKSdH6fVrisB582BQkuDternqxFGDCYEy7TIXlomBufy4y4T825eoHRimXEtDHcF-4tlsQv3-e~rPsJKGzg3VlM5zoncrIuaxFUE2UZB7I484-qRk5Mu~Gb1QXbXhC~RjYgaSsvfnLgcknQy0NYs2qP95-wlw__",
+  },
+  {
+    src: "https://s3-alpha-sig.figma.com/img/22ad/c90b/92cb6ac52bc8323d6364f342a36a6302?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HYxoiqaS1jFHA83ZXeCplqMUSwubeY5VVOyXyC7FV3QypPluB6mxbZTWLaDZNeTs~gDXSni1vIw2F-dhOtOaMBbcEEICcbphcByYitQoavmzQ-EKYTRG5qtlmGm-Z42zipiRBdFlu-vas-ypBKV5pKKH0zhBk2CL-wg4qNfObTE9xht3eTdiFmyiiM2iqSFArqhgL6F5UR0Oqvn8SUNY01xHP82Ps0R6g7mIPT0A1KQoHIZ9FomFI2fJo5XGfFBQVVAE8yHebzy0JHCgjem7eDsOg-JVR~nEcscibsA8z0f9U2RKRf1CpJ7VfUw5b7PjMEMdCOLc45vVlFYmdnqbAA__",
+  },
+];

@@ -24,7 +24,7 @@ const Hero = () => {
     <div className="pt-[100px]">
       <div className="grid grid-cols-1 mx-auto max-w-5xl py-5 md:py-24 gap-10">
         <div className="mx-5 lg:mx-0">
-          <h1 className="text-[80px] leading-[90px] font-bold text-white uppercase">
+          <h1 className="text-[50px] md:text-[80px] leading-[65px] md:leading-[90px] font-bold text-white uppercase">
             explore <br />
             indonesia
           </h1>
