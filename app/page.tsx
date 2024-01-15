@@ -1,8 +1,10 @@
 import Articles from "@/components/articles";
 import Explore from "@/components/explore";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import Map from "@/components/map";
 import Navbar from "@/components/navbar";
+import Video from "@/components/video";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <Articles />
       <Explore />
       <Map />
+      <Video />
+      <Footer />
     </div>
   );
 }

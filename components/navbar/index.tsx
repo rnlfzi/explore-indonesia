@@ -1,11 +1,34 @@
+"use client";
+
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
 import NavItem from "./navitem";
 
 import { HiOutlineSearch, HiMenu } from "react-icons/hi";
 
 const Navbar = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navbarBackground =
+    scrollPosition > 0 ? "bg-custom-navy/50 backdrop-blur" : "bg-transparent";
+
   return (
-    <nav className="fixed flex items-center w-full h-[100px] px-10 gap-16">
+    <nav
+      className={`fixed flex items-center w-full h-[100px] px-10 gap-16 ${navbarBackground} z-50`}
+    >
       <Image
         src="/images/logo.png"
         width={150}

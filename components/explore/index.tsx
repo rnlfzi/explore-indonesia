@@ -10,7 +10,7 @@ const Explore = () => {
       className="bg-cover bg-no-repeat h-[1500px] w-full bg-center"
     >
       <div className="flex flex-col justify-between items-center w-full h-full">
-        <div className="flex flex-col py-16 max-w-5xl text-center">
+        <div className="flex flex-col py-16 max-w-sm md:max-w-5xl text-center overflow-x-hidden">
           <h3 className=" text-4xl font-semibold">Explore Our Secrets</h3>
           <Slider />
         </div>

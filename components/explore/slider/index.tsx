@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,11 +14,27 @@ const Slider = () => {
   const [nextEl, setNextEl] = useState<HTMLElement | null>(null);
   const [active, setActive] = useState(1);
 
+  const [width, setWidth] = useState(0);
+
+  useEffect(() => {
+    const updateScreenWidth = () => {
+      setWidth(window.innerWidth);
+    };
+
+    updateScreenWidth();
+
+    window.addEventListener("resize", updateScreenWidth);
+
+    return () => {
+      window.removeEventListener("resize", updateScreenWidth);
+    };
+  }, []);
+
   return (
     <div className="mt-6">
       <Swiper
         navigation={{ prevEl, nextEl }}
-        slidesPerView={3}
+        slidesPerView={width > 641 ? 3 : 1}
         spaceBetween={10}
         pagination={{
           clickable: true,
