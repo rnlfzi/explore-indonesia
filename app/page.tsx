@@ -7,6 +7,7 @@ import Navbar from "@/components/navbar";
 import Video from "@/components/video";
 
 export default function Home() {
+  console.log("Hello World");
   return (
     <div className="bg-white">
       <Navbar />
